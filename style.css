@@ -1,0 +1,542 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+a{
+    text-decoration: none;
+    color: rgb(52, 52, 52);
+    font-size: 14px;
+}
+article, section, footer{
+    max-width: 1440px;
+    min-width: 290px;
+    margin: 6rem auto 4rem auto;
+}
+article a{
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(56, 56, 56);
+    line-height: 1.2rem;
+}
+body{
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+nav{
+    display: flex;
+    margin: 0 1rem;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 2%;
+    z-index: 100;
+    background-color: rgba(255, 255, 255, 0.83);
+    height: 50px;
+}
+nav a:hover{
+    transition: all 0.2s ease;
+    text-decoration: line-through;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 5px;
+    text-decoration-color: rgb(255, 196, 0);
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+    font-size: 14px;
+    font-weight: 400;
+}
+.menu ul li {
+    margin-right: 1.5rem;
+}
+#logoholder{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(255, 162, 0);
+    border-radius: 50%;
+}
+
+/* homepage */
+.intro{
+    display: flex;
+    width: 55%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.intro .text{
+    margin-right: 2rem;
+    width: 50%;
+    max-width: 300px;
+}
+.intro .text h5{
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    color: rgb(69, 69, 69);
+}
+.profile img{
+   width: 320px;
+}
+
+/* about me sec */
+.aboutme h5, .projects h5, footer h5{
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(69, 69, 69);
+}
+.aboutme{
+    width: 55%;
+}
+.interests{
+    text-align: center;
+    margin-top: -2rem;
+}
+.professional{
+    margin-right: 3rem;
+}
+.toBottom{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: flex-start;
+    margin: 2rem auto;
+}
+.aboutmedetails ul{
+    font-size: 14px;
+    font-weight: 400;
+    list-style:circle;
+    color: rgb(97, 97, 97);
+}
+.aboutmedetails ul li{
+    margin-bottom: 0.4rem;
+}
+.interests ul{
+    list-style:none;
+}
+ul.nested{
+    margin-left: 1rem;
+    color: rgb(148, 148, 148);
+    font-size: 12px;
+    list-style: none;
+} 
+.aboutme h6{
+    font-weight: 500;
+    font-size: 16px;
+    font-style: italic;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    margin: 1.4rem 0 0.6rem 0;
+    color: rgb(69, 69, 69);
+}
+.download{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 5rem;
+}
+.download img{
+    width: 30px;
+    margin-right: 10px;
+    opacity: 0.6;
+}
+.download a:hover{
+    transition: all 0.2s ease;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 5px;
+    text-decoration-color: rgba(255, 162, 0, 0.757);
+}
+
+/* sub intro in each page */
+.subIntro{
+    width: 70%;
+    margin: 8rem auto;
+}
+.subIntro .text{
+    width: 60%;
+    margin-left: 6rem;
+}
+.subIntro .text h5{
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    color: rgb(69, 69, 69);
+}
+.subIntro .text strong{
+    font-size: 60px;
+}
+
+.featuredproject{
+    width: 80%;
+    max-width: 1440px;
+    overflow: hidden;
+}
+.cardContainer{
+    width: max-content;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin: 0 auto;
+}
+
+.projectpre{
+    /* margin: 6px; */
+    cursor: pointer;
+}
+.projectpre:hover{
+    transition: all 2s ease;
+}
+.projectprecard{
+    width: 15rem;
+    height: 15rem;
+    position: relative;
+    overflow: hidden;
+}
+.projectpreimg{
+    width: 15rem;
+    display: block;
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 8px;
+}
+.imghover{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.551);
+    border-radius: 5px;
+    padding: 20px;
+    transition: all 0.9s ease;
+}
+.templates .imghover{
+    background-color: rgba(255, 255, 255, 0.056);
+}
+.imghover p{
+    color: white;
+    font-style: italic;
+    margin: 10px auto;
+}
+.imghover h4{
+    color: white;
+    font-size: 15px;
+}
+.projLink{
+    color: white;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 5px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.projLink:hover{
+    transition: all 0.2s ease;
+    color: rgb(255, 208, 0);
+    font-style: italic;
+}
+
+.articles{
+    width: 80%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.featuredarticle{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.articlepre{
+    margin: 0 10px 30px 0;
+    width: 48em;
+}
+.articlepre:hover{
+    transition: all 0.2s ease;
+    transform: scale(1.02);
+}
+.articlepre a{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.articlepretitle{
+    margin-left: 15px;
+    font-size: 15px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-right: 30px;
+}
+.articlepre img{
+    width: 10em;
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 4px;
+}
+.badge{
+    font-size: 15px;
+    padding: 0 0 20px 0;
+    font-weight: 500;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    text-transform: uppercase;
+}
+
+
+body.active{
+    overflow: hidden;
+    /* margin-right: 17px !important; */
+    cursor: pointer;
+}
+.dialogbox{
+    display: none;
+    width: 95%;
+    /* max-width: 1440px; */
+    height: 95%;
+    position: fixed;
+    top: 4%;
+    left: 2%;
+    background-color: rgb(255, 255, 255);
+    /* border: 1px solid rgb(230, 230, 230); */
+    /* border-radius: 5px; */
+    /* box-shadow: 0px 0px 10px rgb(230, 230, 230); */
+    z-index: 10000;
+    padding: 2rem;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    cursor:default;
+}
+.close{
+    width: 26px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+.dialogbox_overlay{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.696);
+    z-index: 101;
+}
+.dialogbox_head{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.dialogbox_body{
+    margin: 1rem 0;
+    text-align: left;
+}
+
+.dialogbox_head h4, .dialogbox_body, .dialogbox_foot p{
+    max-width: 660px;
+    width: fit-content;
+    min-width: 290px;
+}
+.dialogbox_foot a{
+    font-style: italic;
+    text-decoration: underline;
+}
+
+
+footer{
+    width: 660px;
+}
+.contact{
+    margin: 2rem auto;
+}
+
+.email{
+    font-size: 18px;
+    background-color: rgb(140, 255, 0);
+    font-family: 'Courier New', Courier, monospace;
+    font-style: bold;
+    width: fit-content;
+    margin: 0 auto 20px auto;
+}
+.emailnotes{
+    font-size: 16px;
+    font-family:'Courier New', Courier, monospace;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
+    text-decoration-color: rgb(255, 0, 140);
+}
+
+/* details pages*/
+.detailimg{
+    margin: 2rem auto;
+    width: fit-content;
+    height: fit-content;
+    background-color: white;
+}
+.mb{
+    display: none;
+}
+#tyss17 img, #wildcats img, #lxyy img, #bjyy img, #gysj img, #yczy img, #pandamlther img{
+    width: 100%;
+    height: 100%;
+    max-width: 1440px;
+}
+#cnstory1 img, #cnstory2 img,#cnstory3 img,#cnstory4 img{
+    width: 100%;
+    margin-bottom: 5rem;
+}
+.pdf{
+    background-color: rgb(68, 64, 64);
+}
+#jpcnEmbed, #uselEmbed{
+    width: 660px;
+}
+embed{
+    width: 80vw;
+    height: 90vh;
+}
+
+.everything video{
+    object-fit: cover;
+}
+#cats{
+    width: 110%;
+    transform: translate(-5%, -7%);
+    object-fit: cover;
+}
+#sdlr{
+    height: 15rem;
+    width: auto;
+    transform: translate(-12%, 0);
+}
+#flw1{
+    scale: 1.2;
+    transform: translate(0, 1%);
+}
+#hy{
+    height: 160%;
+    transform: translate(0, -37%);
+}
+#flw2{
+    scale:1.7;
+    transform: translate(10%, 0);
+}
+#flw3{
+    scale: 1.3;
+    transform: translate(3%, -20%);
+}
+#bmw{
+    scale: 1.4;
+    transform: translate(0, 4%);
+}
+.imgUnactive{
+    pointer-events: none;
+    cursor: default;
+}
+
+@media screen and (max-width: 1200px) {
+    .projectprecard{
+        width: 12rem;
+        height: 12rem;
+    }
+    .projectpreimg{
+        width: 12rem;
+    }
+}
+
+@media screen and (max-width: 950px){
+    .cardContainer{
+        width: max-content;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 560px) {
+    .featuredproject{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 430px) {
+    .mb{
+        display: block;
+    }
+    .ds{
+        display: none;
+    }
+    #jpcnEmbed, #uselEmbed{
+        width: 360px;
+    }
+}
+
+
+
+/* Firefox (uncomment to work in Firefox, although other properties will not work!)  */
+/** {
+  scrollbar-width: thin;
+  scrollbar-color: #154459 #F2FDFF;
+}*/
+
+/* Chrome, Edge and Safari */
+.dialogbox::-webkit-scrollbar {
+    height: 6px;
+    width: 6px;
+}
+.dialogbox::-webkit-scrollbar-track {
+border-radius: 0px;
+background-color: #F2FDFF;
+}
+.dialogbox::-webkit-scrollbar-track:hover {
+background-color: #E3EEF0;
+}
+.dialogbox::-webkit-scrollbar-track:active {
+background-color: #DFE9EB;
+}
+.dialogbox::-webkit-scrollbar-thumb {
+border-radius: 2px;
+background-color: #154459;
+}
+.dialogbox::-webkit-scrollbar-thumb:hover {
+background-color: #2880A8;
+}
+.dialogbox::-webkit-scrollbar-thumb:active {
+background-color: #25799E;
+}
+  

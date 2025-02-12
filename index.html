@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catherine Ma - Telling Data Stories</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html"><div id="logoholder"></div></a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#dataStories">VIZ-STORIES<br/>数据叙事</a></li>
+                    <li><a href="#research">RESEARCH<br/>研究</a></li>
+                    <li><a href="#templates">TOOLKIT<br/>工具包</a></li>
+                    <li><a href="#everything">EVERYTHING<br/>杂物</a></li>
+                </ul>
+            </div>
+        </nav>
+        <article class="intro">
+            <div class="text">
+                <h5>Hi, I am <br/><strong>Catherine Ma<br/>馬倩</strong></h5>
+                <p>A data visualization designer, developer, storyteller, EN-CH translator, and VIS-COMM scholar. Being into EVERYTHING about visualizations. </p>
+                <p><br/>( Page updated at February, 2025. )</p>
+            </div>
+            <div class="profile"><img src="img/cover.png" /></div>
+        </article>
+    </header>
+    <main>
+        <article class="aboutme">
+            <h5>ABOUT ME</h5>
+            <section class="aboutmedetails">
+                <div class="text interests">
+                    <h6>Design interests & skills</h6>
+                    <ul>
+                        <li>Interactive storytelling, infographics, data videos</li>
+                        <li>Adobe Suite, Figma, HTML/CSS/JS, AIGC</li>
+                    </ul>
+                    <h6>Research interests & skills</h6>
+                    <ul>
+                        <li>News visualization, visualization design and evaluation</li>
+                        <li>Case study, ethnography, systematic literature review, UX study</li>
+                    </ul>
+                    <h6>Teaching interests</h6>
+                    <ul>
+                        <li>Visualization history, theory, and design; data journalism practice</li>
+                    </ul>
+                    <p></p>
+                </div>
+                <div class="toBottom">
+                    <div class="text professional">
+                        <h6>Professional Experience</h6>
+                        <ul>
+                            <li>03.2024 - Now, Full-stack news visualization designer, South China Morning Post Graphics, Hong Kong, SAR.</li>
+                            <li>08.2023 - 01.2024, Manager and chief producer at the Global-Comm Lab, China News Service, Beijing.</li>
+                            <li>09.2020 - 05.2023, Data visualization freelancer and English-Chinese interpreter.</li>
+                            <li>03.2016 - 06.2019, Graphics reporter and product manager, Xinhua Media Creatives, Xinhua News Agency, Beijing.</li>
+                        </ul>
+
+                    </div>
+                    <div class="text eudcation">
+                        <h6>Education</h6>
+                        <ul>
+                            <li>08.2019-05.2023, Ph.D. in Communication, University of Miami</li>
+                            <li>09.2013-01.2016, M.Eng in Industrial Design, Tianjin University
+                                <ul class="nested">
+                                    <li>Studied HCI and information design in Nanyang Technological University and Korea University</li>
+                                </ul>
+                            </li>
+                            <li>09.2009-07.2013, B.Eng in Industrial Design, Tianjin University
+                                <ul class="nested">
+                                    <li>Studied Industrial Design in Georgia Institute of Technology</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </section>
+            <section class="download">
+                <img src="img/download_icon.png"/>
+                <a href="https://docs.google.com/document/d/1lYtQElHUMe3QCSmGALQTbpQc8QB6SKjXhcfECpGnKlI/edit?usp=sharing" target="_blank"><i>Click here to download my most recent CV</i></a>
+            </section>
+        </article>
+
+        <article class="subIntro" id="dataStories">
+            <div class="text">
+                <h5>I make creative <br/><strong>Data-Viz stories</strong><br/>in various forms and topics</h5>
+                <p>I explore all kinds of news visualizations. Personally, I would love to explain cultural phenomena, scientific findings, and advanced technology with visuals and narratives. I would love to take any coding challenges, developing interactions and animations for data visualizations. On the premise of truthfulness and originality, I'm also open to any AIGC inspirations or assistance.</p>
+            </div>
+        </article>
+
+        <article class="projects">
+            <div class="dialogbox_overlay"></div>
+            <section class="featuredproject">
+                <!-- <div class="scrollframe" id="scrollFrame">
+                    <div class="scrollWrapper" id="scrollWrapper"></div>
+                </div> -->
+                <div class="cardContainer">
+                    <div class="projectpre">
+                        <div class="projectprecard">
+                            <div class="imghover">
+                                <h4>Grumpy cat goes wild</h4>
+                                <p>Designer, illustrator, writer</p>
+                            </div>
+                            <img class="projectpreimg" src="img/plsc.png"/>
+                        </div>
+                        <div class="dialogbox">
+                            <div class="dialogbox_head">
+                                <h4>Grumpy cat goes wild</h4>
+                                <img class="close" src="img/close.png"/>
+                            </div>
+                            <div class="dialogbox_body">
+                                <p>
+                                    A printed graphic for Young Post SPARK. Digital version: <a href="https://www.scmp.com/yp/spark/stories/article/3296943/infospark-meet-little-known-pallass-cat">InfoSpark: Meet the little-known Pallas’s cat</a>
+                                </p>
+                            </div>
+                            <div class="dialogbox_foot">
+                                <div id="pandamlther" class="detailimg">
+                                    <img src="../file/plct.jpg"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projectpre">
+                        <div class="projectprecard">
+                            <a href="https://multimedia.scmp.com/infographics/news/world/article/3294195/trump_orbit/" target="_blank">
+                                <div class="imghover">
+                                    <h4>Power players: Trump’s team and views on China</h4>
+                                    <p>Developer, created a dynamically updated profile list of Trump cabinet.</p>
+                                </div>
+                            </a>
+                            <img class="projectpreimg" src="img/tpobt.png"/>
+                        </div>
+                    </div>
+                    <div class="projectpre">
+                        <div class="projectprecard">
+                            <div class="imghover">
+                                <h4>Living with Mum: How is the first year of a panda</h4>
+                                <p>Designer, illustrator, writer</p>
+                            </div>
+                            <img class="projectpreimg" src="img/pandamother.png"/>
+                        </div>
+                        <div class="dialogbox">
+                            <div class="dialogbox_head">
+                                <h4>How is the first year of a panda</h4>
+                                <img class="close" src="img/close.png"/>
+                            </div>
+                            <div class="dialogbox_body">
+                                <p>
+                                    A printed graphic for Young Post SPARK, teenager's version of SCMP. The graphic was done with a handrawn cartoon style to catch kids interests. Digital version: <a href="https://www.scmp.com/yp/spark/stories/article/3282916/infospark-year-life-newborn-giant-panda">InfoSpark: A year in the life of a newborn giant panda</a>
+                                </p>
+                            </div>
+                            <div class="dialogbox_foot">
+                                <div id="pandamlther" class="detailimg">
+                                    <img src="../file/pandamlther.jpeg"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projectpre">
+                        <div class="projectprecard">
+                            <a href="https://multimedia.scmp.com/infographics/news/hong-kong/article/3275641/panda-tracker/" target="_blank">
+                                <div class="imghover">
+                                    <h4>Panda twins tracker</h4>
+                                    <p>Developer, created a coordinated live calendar view to show HK's newborn panda twins</p>
+                                </div>
+                            </a>
+                            <img class="projectpreimg" src="img/panda.png"/>
+                        </div>
+                    </div>
+                    <div class="projectpre">
+                        <div class="projectprecard">
+                            <a href="https://multimedia.scmp.com/infographics/sport/article/3271702/paris-2024-openning-ceremony/index.html" target="_blank">
+                                <div class="imghover">
+                                    <h4>A different opening, the River Seine scenario</h4>
+                                    <p>Developer, created a scrolly drawing animation with a tracking previewer to present key places of interests along the River Seine.</p>
+                                </div>
+                            </a>
+                            <img class="projectpreimg" src="img/opening.png"/>
+                        </div>
+                    </div>
+                    <div class="projectpre">
+                        <div class="projectprecard">
+                            <div class="imghover">
+                                <h4>新疆，何以“亚心”</h4>
+                                <p>Led the project, visualized the location and political-economic impacts of the "Heart of Asia."</p>
+                                <a class="projLink" href="https://www.chinanews.com.cn/gn/2023/11-20/10114994.shtml" target="_blank">CH ver.</a>
+                                <a class="projLink" href="https://www.ecns.cn/news/cns-wire/2023-11-20/detail-ihcvcsuf3221573.shtml">EN ver.</a>
+                            </div>
+                            <img class="projectpreimg" src="img/yx.png"/>
+                        </div>
+                    </div>
+                    <div class="projectpre">
+                        <div class="projectprecard">
+                            <div class="imghover">
+                                <h4>丝路千年大数据揭秘茶咖融合的前世今生</h4>
+                                <p>Led the project, visualized the evolution of the tea, coffee, and tea-coffee beverage.</p>
+                                <a class="projLink" href="https://www.chinanews.com.cn/cul/2023/10-17/10095597.shtml" target="_blank">CH ver.</a>
+                                <a class="projLink" href="https://www.ecns.cn/cns-wire/2023-10-31/detail-ihcunyxi9335074.shtml">EN ver.</a>
+                            </div>
+                            <img class="projectpreimg" src="img/ckrh.png"/>
+                        </div>
+                    </div>
+                    <div class="projectpre">
+                        <div class="projectprecard">
+                            <div class="imghover">
+                                <h4>万首诗词大数据告诉你为何“最忆是杭州”</h4>
+                                <p>Led the project, visualized how Hangzhou was dipicted in the ancient Chinese poems</p>
+                                <a class="projLink" href="https://www.ecns.cn/news/cns-wire/2023-09-28/detail-ihctmvss0804725.shtml" target="_blank">EN ver.</a>
+                                <a class="projLink" href="https://www.chinanews.com.cn/gn/2023/09-23/10082818.shtml" target="_blank">CH ver.</a>
+                            </div>
+                            <img class="projectpreimg" src="img/hzsc.png"/>
+                        </div>
+                    </div>
+                    <div class="projectpre">
+                        <div class="projectprecard">
+                            <a href="https://mp.weixin.qq.com/s?__biz=MzIyNDA2NTI4Mg==&mid=2655499162&idx=2&sn=9b16fb3e0b07484200b55f5a93fdcad9&chksm=f27ed2010c9403868125e682ce93a01f3c69e0669b53af1e25e40b5f1185fb08eafc0fe74b78&mpshare=1&scene=1&srcid=0307eovSryt4ad9qf0ratRBn&sharer_shareinfo=cb44a211439c7c2da088dbb0bf85c88c&sharer_shareinfo_first=5ffdd0a16d33432c10f3dddb483972cb#rd" target="_blank">
+                                <div class="imghover">
+                                    <h4>北上广深的公共体育设施资源知多少？</h4>
+                                    <p>Solo project, visualized how the public recreation facilities were distributed and operated in Beijing, Shanghai, Guangzhou, and Shenzhen.</p>
+                                </div>
+                            </a>
+                            <img class="projectpreimg" src="img/tyss22.png"/>
+                        </div>
+                    </div>
+                    <div class="projectpre">
+                        <div class="projectprecard">
+                            <div class="imghover">
+                                <h4>Spatial distribution of the wildcats</h4>
+                                <p>Infographic for an academic paper. Designer, illustrator</p>
+                            </div>
+                            <img class="projectpreimg" src="img/widecats.png"/>
+                        </div>
+                        <div class="dialogbox">
+                            <div class="dialogbox_head">
+                                <h4>Spatial distribution of the wildcats.</h4>
+                                <img class="close" src="img/close.png"/>
+                            </div>
+                            <div class="dialogbox_body">
+                                <p>
+                                    Visualization of the wildcats' body data, global distribution, and data of relevant publications. The graphics was inserted as the first figure in the following publication: Xie, Bing & Gong, Yinan & Fu, Yanwen & Feng, Limin & Yang, Haitao. (2023). Does the territorial behaviour of the Amur tiger affect the accuracy of occupancy estimation?. 10.1101/2023.01.16.524338.
+                                </p>
+                            </div>
+                            <div class="dialogbox_foot">
+                                <div id="wildcats" class="detailimg">
+                                    <img src="../file/wildcats.png"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projectpre">
+                        <div class="projectprecard">
+                            <a href="http://www.news.cn/datanews/20211015/C99905849A1000012A8E18C0199B1681/c.html" target="_blank">
+                                <div class="imghover">
+                                    <h4>家宴，人间至味是团圆</h4>
+                                    <p>Project leader, writer, designer. Interactive visualization of the Lunar New Year dinner menu.</p>
+                                </div>
+                            </a>
+                            <img class="projectpreimg" src="img/cjjy.png"/>
+                        </div>
+                    </div>
+                    <div class="projectpre">
+                        <div class="projectprecard">
+                            <a href="https://fms.news.cn/swf/2018_sjxw/quansongci/index.html#/" target="_blank">
+                                <div class="imghover">
+                                    <h4>宋词缱绻，何处画人间</h4>
+                                    <p>Project leader, writer, designer, developer. Interactive visualization of styles, tunes, and images depicted in Ancient Chinese Poems, i.e. Song Ci.</p>
+                                </div>
+                            </a>
+                            <img class="projectpreimg" src="img/sciqqinter.png"/>
+                        </div>
+                    </div>
+                    <div class="projectpre">
+                        <div class="projectprecard">
+                            <a href="http://www.news.cn/datanews/20211015/C999058552E00001AF4E9CEBA7207460/c.html" target="_blank">
+                                <div class="imghover">
+                                    <h4>宋词缱绻，何处画人间</h4>
+                                    <p>Printed infographic version of the Song Ci visualization.</p>
+                                </div>
+                            </a>
+                            <img class="projectpreimg" src="img/sciqqinfo.png"/>
+                        </div>
+                    </div>
+                    <div class="projectpre">
+                        <div class="projectprecard">
+                            <a href="http://www.xinhuanet.com/datanews/20211015/C999058552A00001BA72DEF01090BE50/c.html" target="_blank">
+                                <div class="imghover">
+                                    <h4>真正的“侏罗纪世界”，在中国</h4>
+                                    <p>Solo project. Printed infographic visualizing the spatial-temporal distribution of dinosaur fossils found in China.</p>
+                                </div>
+                            </a>
+                            <img class="projectpreimg" src="img/zljsjzh.png"/>
+                        </div>
+                    </div>
+                    <div class="projectpre">
+                        <div class="projectprecard">
+                            <a href="http://www.news.cn/datanews/20211015/C9990585530000013946104011B05E70/c.html" target="_blank">
+                                <div class="imghover">
+                                    <h4>从珠江口到大屿山：双甲子承诺如何炼成</h4>
+                                    <p>Solo project. Printed infographic visualizing the location and building timeline of the Hong Kong-Zhuhai-Macau Bridge.</p>
+                                </div>
+                            </a>
+                            <img class="projectpreimg" src="img/hzmb.png"/>
+                        </div>
+                    </div>
+                    <div class="projectpre">
+                        <div class="projectprecard">
+                            <div class="imghover">
+                                <h4>China Story series: C919 (国产大飞机 C919)</h4>
+                                <p>Writer, designer, and interpretor</p>
+                            </div>
+                            <img class="projectpreimg" src="img/cnstory.png"/>
+                        </div>
+                        <div class="dialogbox">
+                            <div class="dialogbox_head">
+                                <h4>China Story series: C919 (国产大飞机 C919)</h4>
+                                <img class="close" src="img/close.png"/>
+                            </div>
+                            <div class="dialogbox_body">
+                                <p>
+                                    A printed infographic briefly introduces China's C919 aircraft, such as its development timeline, involving countries and menufactures.
+                                </p>
+                            </div>
+                            <div class="dialogbox_foot">
+                                <div id="cnstory1" class="detailimg">
+                                    <img src="../file/cnstory1.png"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projectpre">
+                        <div class="projectprecard">
+                            <div class="imghover">
+                                <h4>China Story series: China Cross-Border Energy Pathway</h4>
+                                <p>Writer, designer, and interpretor</p>
+                            </div>
+                            <img class="projectpreimg" src="img/cnstory2.png"/>
+                        </div>
+                        <div class="dialogbox">
+                            <div class="dialogbox_head">
+                                <h4>China Story series: China Cross-Border Energy Pathway</h4>
+                                <img class="close" src="img/close.png"/>
+                            </div>
+                            <div class="dialogbox_body">
+                                <p>
+                                    A printed infographic briefly introduces the development, consumption, and vision of China's cross-border energy pathways.
+                                </p>
+                            </div>
+                            <div class="dialogbox_foot">
+                                <div id="cnstory2" class="detailimg">
+                                    <img src="../file/cnstory2.png"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projectpre">
+                        <div class="projectprecard">
+                            <div class="imghover">
+                                <h4>China Story series: China 5G</h4>
+                                <p>Writer, designer, and interpretor</p>
+                            </div>
+                            <img class="projectpreimg" src="img/5gtech.png"/>
+                        </div>
+                        <div class="dialogbox">
+                            <div class="dialogbox_head">
+                                <h4>China Story series: China 5G</h4>
+                                <img class="close" src="img/close.png"/>
+                            </div>
+                            <div class="dialogbox_body">
+                                <p>
+                                    A printed infographic briefly introduces the concept, status quo, and mission of China's 5G technology.
+                                </p>
+                            </div>
+                            <div class="dialogbox_foot">
+                                <div id="cnstory3" class="detailimg">
+                                    <img src="../file/cnstory3.png"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projectpre">
+                        <div class="projectprecard">
+                            <div class="imghover">
+                                <h4>China Story series: China Metro System</h4>
+                                <p>Writer, designer, and interpretor</p>
+                            </div>
+                            <img class="projectpreimg" src="img/cnstory4.png"/>
+                        </div>
+                        <div class="dialogbox">
+                            <div class="dialogbox_head">
+                                <h4>China Story series: China Metro System</h4>
+                                <img class="close" src="img/close.png"/>
+                            </div>
+                            <div class="dialogbox_body">
+                                <p>
+                                    A printed infographic briefly introduces the evolution and capacity of China's metro system.
+                                </p>
+                            </div>
+                            <div class="dialogbox_foot">
+                                <div id="cnstory4" class="detailimg">
+                                    <img src="../file/cnstory4.png"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projectpre">
+                        <div class="projectprecard">
+                            <div class="imghover">
+                                <h4>音曲繁美：流行音乐的百年分化与融合</h4>
+                                <p>Project leader, writer, designer. Evolution of ten main popular music genres around the world</p>
+                            </div>
+                            <img class="projectpreimg" src="img/lxyy.png"/>
+                        </div>
+                        <div class="dialogbox">
+                            <div class="dialogbox_head">
+                                <h4>音曲繁美：流行音乐的百年分化与融合</h4>
+                                <img class="close" src="img/close.png"/>
+                            </div>
+                            <div class="dialogbox_body">
+                                <p>
+                                    The project is originally an interactive page visualizing how ten main popular music genres have been evovling over the last 100 years. The page was withdrawn due to Xinhua's publication policy.  
+                                </p>
+                            </div>
+                            <div class="dialogbox_foot">
+                                <div id="lxyy" class="detailimg">
+                                    <img src="../file/lxyy.png"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projectpre">
+                        <div class="projectprecard">
+                            <div class="imghover">
+                                <h4>隐藏的运动场：8小时外健身休闲，如何说走就走</h4>
+                                <p>Project leader, writer, designer. Distribution of the public recreation places in Beijing.</p>
+                            </div>
+                            <img class="projectpreimg" src="img/tyss17.png"/>
+                        </div>
+                        <div class="dialogbox">
+                            <div class="dialogbox_head">
+                                <h4>隐藏的运动场：8小时外健身休闲，如何说走就走</h4>
+                                <img class="close" src="img/close.png"/>
+                            </div>
+                            <div class="dialogbox_body">
+                                <p>
+                                    The project is originally a static page visulizing the distribution of the public recreation places in Beijing. The project was withdrawn due to Xinhua's publication policy.
+                                </p>
+                            </div>
+                            <div class="dialogbox_foot">
+                                <div id="tyss17" class="detailimg">
+                                    <img src="../file/tyss17.jpg"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projectpre">
+                        <div class="projectprecard">
+                            <div class="imghover">
+                                <h4>世界大港建成记：洋山港的建设历程</h4>
+                                <p>Solo project. How Yangshan Port was built.</p>
+                            </div>
+                            <img class="projectpreimg" src="img/ysg.png"/>
+                        </div>
+                        <div class="dialogbox">
+                            <div class="dialogbox_head">
+                                <h4>世界大港建成记：洋山港的建设历程</h4>
+                                <img class="close" src="img/close.png"/>
+                            </div>
+                            <div class="dialogbox_body">
+                                <p>
+                                    A printed infographic illustrating the construction of the Yangshan Port.
+                                </p>
+                            </div>
+                            <div class="dialogbox_foot">
+                                <div id="ysg" class="detailimg">
+                                    <img src="../file/ysg.jpg"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projectpre">
+                        <div class="projectprecard">
+                            <div class="imghover">
+                                <h4>马航MH370：等你的1728天</h4>
+                                <p>Solo project. A brief summary of the missing plane MH370</p>
+                            </div>
+                            <img class="projectpreimg" src="img/MH370.png"/>
+                        </div>
+                        <div class="dialogbox">
+                            <div class="dialogbox_head">
+                                <h4>马航MH370：等你的1728天</h4>
+                                <img class="close" src="img/close.png"/>
+                            </div>
+                            <div class="dialogbox_body">
+                                <p>
+                                    A printed infographic summarizing the missing plane MH370, including the timeline, locations, and plane structure.
+                                </p>
+                            </div>
+                            <div class="dialogbox_foot">
+                                <div id="ysg" class="detailimg">
+                                    <img src="../file/MH370.jpg"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projectpre">
+                        <div class="projectprecard">
+                            <div class="imghover">
+                                <h4>原创综艺的春天还有多远</h4>
+                                <p>Designer, developer. Production and originality of the reality shows in China</p>
+                            </div>
+                            <img class="projectpreimg" src="img/yczy.png"/>
+                        </div>
+                        <div class="dialogbox">
+                            <div class="dialogbox_head">
+                                <h4>原创综艺的春天还有多远</h4>
+                                <img class="close" src="img/close.png"/>
+                            </div>
+                            <div class="dialogbox_body">
+                                <p>
+                                    The project is originally an interactive page exploring the features of China's reality shows and why most of them are not original. The project was withdrawn due to Xinhua's publication policy.
+                                </p>
+                            </div>
+                            <div class="dialogbox_foot">
+                                <div id="yczy" class="detailimg ds">
+                                    <img src="../file/yczy.png"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projectpre">
+                        <div class="projectprecard">
+                            <div class="imghover">
+                                <h4>北京一夜：重塑城市夜间生态</h4>
+                                <p>Project leadr, designer. Flow of night transportations in Beijing.</p>
+                            </div>
+                            <img class="projectpreimg" src="img/bjyy.png"/>
+                        </div>
+                        <div class="dialogbox">
+                            <div class="dialogbox_head">
+                                <h4>北京一夜：重塑城市夜间生态</h4>
+                                <img class="close" src="img/close.png"/>
+                            </div>
+                            <div class="dialogbox_body">
+                                <p>
+                                    The project is originally an interactive page visualizing the flow of transportations at night in Beijing, such as peak times and places, and monthly traffic patterns. The project was withdrawn due to Xinhua's publication policy.
+                                </p>
+                            </div>
+                            <div class="dialogbox_foot">
+                                <div id="bjyy" class="detailimg ds">
+                                    <img src="../file/bjyy.jpg"/>
+                                </div>
+                                <div id="bjyy_m" class="detailimg mb">
+                                    <img src="../file/bjyy_m.jpg"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projectpre">
+                        <div class="projectprecard">
+                            <div class="imghover">
+                                <h4>中国制造背后，你不知道的事</h4>
+                                <p>Solo priject. Evolution of China's industrial design.</p>
+                            </div>
+                            <img class="projectpreimg" src="img/gysj.png"/>
+                        </div>
+                        <div class="dialogbox">
+                            <div class="dialogbox_head">
+                                <h4>中国制造背后，你不知道的事</h4>
+                                <img class="close" src="img/close.png"/>
+                            </div>
+                            <div class="dialogbox_body">
+                                <p>
+                                    The project is originally an interactive page visualizing the evolution of the industrial design in China. It explored the features of products winning China's first industrial design awards, Hongxing Design Awards, and tracked how these products were implemented in real scenarios. The project was withdrawn due to Xinhua's publication policy.
+                                </p>
+                            </div>
+                            <div class="dialogbox_foot">
+                                <div id="gysj" class="detailimg ds">
+                                    <img src="../file/gysj.jpg"/>
+                                </div>
+                                <div id="gysj_m" class="detailimg mb">
+                                    <img src="../file/gysj_m.jpg"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </article>
+
+        <article class="subIntro" id="research">
+            <div class="text">
+                <h5>I do <br/><strong>Reserach & Writings</strong><br/>about visualization conmmunication</h5>
+                <p>I'm interesting observing how news visualizations are produced in newsrooms and how professionals make production decisions. I believe that knowledge is hidden in news-viz practices, and thus, always want to find it and share it.</p>
+            </div>
+        </article>
+
+        <article class="articles">
+            <section class="featuredarticle">
+                <div class="articlepre">
+                    <a href="https://www.phei.com.cn/module/goods/wssd_content.jsp?bookid=63275" target="_blank">
+                        <img src="img/ds.png"/>
+                        <div class="articlepretitle">
+                            <div class="badge">Book translation</div>
+                            Bremer, N., & Wu, S. (2021). Data Sketches: A journey of imagination, exploration, and beautiful data visualizations.
+                        </div>
+                    </a>
+                </div>
+                <div class="articlepre">
+                    <a href="https://scholarship.miami.edu/esploro/outputs/doctoral/Decisions-in-News-Visualization--How/991031788917602976" target="_blank">
+                        <img src="img/smm.png"/>
+                        <div class="articlepretitle">
+                            <div class="badge">Dissertation</div>
+                            Decisions in News Visualization: How News Visualization Teams Employ a Shared Mental Model
+                        </div>
+                    </a>
+                </div>
+                <div class="articlepre">
+                    <a href="https://www.researchgate.net/publication/371504265_Analyzing_Dorian_Twitter_Data_to_Understand_How_Hurricane_Risk_Assessments_Change_as_Threats_Unfold" target="_blank">
+                        <img src="img/dorian.png"/>
+                        <div class="articlepretitle">
+                            <div class="badge">Conference proceeding</div>
+                            Analyzing Dorian Twitter Data to Understand How Hurricane Risk Assessments Change as Threats Unfold
+                        </div>
+                    </a>
+                </div>
+                <div class="articlepre">
+                    <a href="https://www.researchgate.net/publication/356168022_Design_Guidelines_for_Immersive_Dashboards" target="_blank">
+                        <img src="img/immersive.png"/>
+                        <div class="articlepretitle">
+                            <div class="badge">Conference proceeding</div>
+                            Design Guidelines for Immersive Dashboards
+                        </div>
+                    </a>
+                </div>
+                <div class="articlepre">
+                    <a href="https://www.researchgate.net/publication/365501317_Design_guidelines_for_hurricane_risk_forecast_to_non-expert_users" target="_blank">
+                        <img src="img/hurri.png"/>
+                        <div class="articlepretitle">
+                            <div class="badge">Conference proceeding</div>
+                            Design guidelines for hurricane risk forecast to non-expert users
+                        </div>
+                    </a>
+                </div>
+                <div class="articlepre">
+                    <a href="https://osf.io/preprints/osf/62swr" target="_blank">
+                        <img src="img/cndatanews.png"/>
+                        <div class="articlepretitle">
+                            <div class="badge">Conference proceeding</div>
+                            Unfolding the Decision-Making Dynamics of News Visualization Production in China
+                        </div>
+                    </a>
+                </div>
+            </section>
+        </article>
+
+        <article class="subIntro" id="templates">
+            <div class="text">
+                <h5>I produce useful <br/><strong>Tools</strong> and <strong>templates</strong>, and share <strong>VizCommm resources</strong><br/>etc..</h5>
+                <p>My multidisciplinary background makes me a fast, curious, and passionate self-learner. I can always find good sources to learn and tools to streamline my workflow. I also create various templates to speed up my working, such as D3 viz components, micro-interactions, prototypes, slides, etc...</p>
+            </div>
+        </article>
+
+        <article class="templates">
+            <div class="dialogbox_overlay"></div>
+            <section class="featuredproject">
+                <div class="cardContainer">
+                    <div class="projectpre">
+                        <div class="projectprecard">
+                            <div class="imghover"></div>
+                            <video height="100%" width="100%" class="projectpreimg" autoplay loop muted>
+                                <source src="img/jpcn.mp4">
+                            </video>
+                        </div>
+                        <div class="dialogbox">
+                            <div class="dialogbox_head">
+                                <h4>Japan vs China 30-year bond yield</h4>
+                                <img class="close" src="img/close.png"/>
+                            </div>
+                            <div class="dialogbox_body">
+                                <p>The visualization shows the daily yield spread on the 30-year bonds of China and Japan, which have closed over a 20-year period. The vis block is used in SCMP article: <a href="https://www.scmp.com/opinion/china-opinion/article/3289447/why-plunge-chinas-bond-yields-not-bad-news" target="_blank">Macroscope | Why the plunge in China’s bond yields is not bad news</a>
+                                </p>
+                            </div>
+                            <div class="dialogbox_foot">
+                                <div id="jpcnEmbed" class="detailimg">
+                                    <iframe width="100%" height="600" src="https://multimedia.scmp.com/embeds/2024/economy/bond_yield/" scrolling="no" frameborder="0"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projectpre">
+                        <div class="projectprecard">
+                            <div class="imghover"></div>
+                            <video height="100%" width="100%"   class="projectpreimg" autoplay loop muted>
+                                <source src="img/usel.mp4">
+                            </video>
+                        </div>
+                        <div class="dialogbox">
+                            <div class="dialogbox_head">
+                                <h4>US presidential election 2024: Electoral College results</h4>
+                                <img class="close" src="img/close.png"/>
+                            </div>
+                            <div class="dialogbox_body">
+                                <p>The visualization shows the electoral College results of US presidential election 2024. It was updated lively on the election day.
+                                    The vis block is used in SCMP US election live blog: <a href="https://www.scmp.com/news/us/us-elections/article/3285364/us-presidential-election-2024-electoral-college-results-live" target="_blank">US presidential election 2024: Electoral College results live</a>
+                                </p>
+                            </div>
+                            <div class="dialogbox_foot">
+                                <div id="uselEmbed" class="detailimg">
+                                    <iframe width="100%" height="720" src="https://multimedia.scmp.com/embeds/2024/world/us-election-map-2024/index_all.html" scrolling="no" frameborder="0"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projectpre">
+                        <div class="projectprecard">
+                            <div class="imghover"></div>
+                            <video height="100%" width="100%"   class="projectpreimg" autoplay loop muted>
+                                <source src="img/uselm.mp4">
+                            </video>
+                        </div>
+                        <div class="dialogbox">
+                            <div class="dialogbox_head">
+                                <h4>US presidential election 2024: Electoral College results</h4>
+                                <img class="close" src="img/close.png"/>
+                            </div>
+                            <div class="dialogbox_body">
+                                <p>The visualization shows the electoral College results of US presidential election 2024. It was updated lively on the election day.
+                                    The vis block is used in SCMP US election live blog: 
+                                    <a href="https://www.scmp.com/news/us/us-elections/article/3285364/us-presidential-election-2024-electoral-college-results-live">US presidential election 2024: Electoral College results live</a>
+                                </p>
+                            </div>
+                            <div class="dialogbox_foot">
+                                <div id="uselmEmbed" class="detailimg">
+                                    <iframe width="100%" height="720" src="https://multimedia.scmp.com/embeds/2024/world/us-election-map-2024/index_choro.html" scrolling="no" frameborder="0"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projectpre">
+                        <div class="projectprecard">
+                            <div class="imghover"></div>
+                            <video height="100%" width="100%"   class="projectpreimg" autoplay loop muted>
+                                <source src="img/dyex.mp4">
+                            </video>
+                        </div>
+                        <div class="dialogbox">
+                            <div class="dialogbox_head">
+                                <h4>Yuan - US dollar exchange rate</h4>
+                                <img class="close" src="img/close.png"/>
+                            </div>
+                            <div class="dialogbox_body">
+                                <p>The visualization shows the price trends over time for how the Chinese currency trades against the US dollar.
+                                    The vis block is used in SCMP article: 
+                                    <a href="https://www.scmp.com/economy/economic-indicators/article/3276877/chinas-yuan-continue-gain-against-us-dollar-outlook-hinges-fed-analysts">China’s yuan to continue to gain against US dollar, but outlook hinges on Fed: analysts</a>
+                                </p>
+                            </div>
+                            <div class="dialogbox_foot">
+                                <div id="dyexEmbed" class="detailimg">
+                                    <iframe width="100%" height="420" src="https://multimedia.scmp.com/embeds/2024/economy/Dollar-Yuan-Exchange-Rate/" scrolling="no" frameborder="0"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projectpre">
+                        <div class="projectprecard">
+                            <div class="imghover"></div>
+                            <video height="100%" width="100%"   class="projectpreimg" autoplay loop muted>
+                                <source src="img/euro.mp4">
+                            </video>
+                        </div>
+                        <div class="dialogbox">
+                            <div class="dialogbox_head">
+                                <h4>Group stage score of UEFA EURO Cup 2024</h4>
+                                <img class="close" src="img/close.png"/>
+                            </div>
+                            <div class="dialogbox_body">
+                                <p>
+                                    The vis block is used in SCMP article: 
+                                    <a href="https://www.scmp.com/sport/football/article/3265197/when-euro-2024-where-can-i-watch-it-who-can-stop-france-england-all-you-need-know-about-summer">Euro 2024 fixtures, results, tables, how to watch, who will win and all you need to know</a>
+                                </p>
+                            </div>
+                            <div class="dialogbox_foot">
+                                <div id="euroEmbed" class="detailimg">
+                                    <iframe width="100%" height="560" src="https://multimedia.scmp.com/embeds/2024/sport/euro-cup-score/" scrolling="no" frameborder="0"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projectpre">
+                        <div class="projectprecard">
+                            <div class="imghover"></div>
+                            <video height="100%" width="100%" class="projectpreimg" autoplay loop muted>
+                                <source src="img/olym.mp4">
+                            </video>
+                        </div>
+                        <div class="dialogbox">
+                            <div class="dialogbox_head">
+                                <h4>Paris Olympics medal tally</h4>
+                                <img class="close" src="img/close.png"/>
+                            </div>
+                            <div class="dialogbox_body">
+                                <p></p>
+                            </div>
+                            <div class="dialogbox_foot">
+                                <div id="olymEmbed" class="detailimg">
+                                    <iframe width="100%" height="590" src="https://multimedia.scmp.com/embeds/2024/sport/paris-olympics-medal-tally/" scrolling="no" frameborder="0"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </article>
+
+        <article class="subIntro" id="everything">
+            <div class="text">
+                <h5>When I'm not working, <br/>
+                I do <strong>Sketches, piano, Taekwondo, readings</strong><br/>etc..</h5>
+            </div>
+        </article>
+
+        <article class="everything">
+            <div class="dialogbox_overlay"></div>
+            <section class="featuredproject">
+                <div class="cardContainer">
+                    <div class="projectpre">
+                        <div class="projectprecard">
+                            <video height="100%" width="100%" id="dx"   class="projectpreimg" controls muted controlsList="nodownload nofullscreen noremoteplayback" disablePictureInPicture>
+                                <source src="file/dx.mp4">
+                            </video>
+                        </div>
+                    </div>
+                    <div class="projectpre">
+                        <div class="projectprecard">
+                            <video height="100%" width="100%" id="dnh"  class="projectpreimg" controls muted controlsList="nodownload nofullscreen noremoteplayback" disablePictureInPicture>
+                                <source src="file/dnh.mp4">
+                            </video>
+                        </div>
+                    </div>
+                    <div class="projectpre imgUnactive">
+                        <div class="projectprecard">
+                            <img class="projectpreimg" id="cats" src="file/cats.jpg"/>
+                        </div>
+                    </div>
+                    <div class="projectpre imgUnactive">
+                        <div class="projectprecard">
+                            <img class="projectpreimg" id="sdlr" src="file/sdlr.jpg"/>
+                        </div>
+                    </div>
+                    <div class="projectpre">
+                        <div class="projectprecard">
+                            <video height="100%" class="projectpreimg" controls muted controlsList="nodownload nofullscreen noremoteplayback" disablePictureInPicture>
+                                <source src="file/xbn.mp4">
+                            </video>
+                        </div>
+                    </div>
+                    <div class="projectpre">
+                        <div class="projectprecard">
+                            <video height="100%" width="100%" class="projectpreimg" controls muted controlsList="nodownload nofullscreen noremoteplayback" disablePictureInPicture>
+                                <source src="file/yz.mp4">
+                            </video>
+                        </div>
+                    </div>
+                    <div class="projectpre imgUnactive">
+                        <div class="projectprecard">
+                            <img class="projectpreimg" id="flw1" src="file/flw1.jpg"/>
+                        </div>
+                    </div>
+                    <div class="projectpre">
+                        <div class="projectprecard">
+                            <video height="100%" width="100%" id="hy"  class="projectpreimg" controls muted controlsList="nodownload nofullscreen noremoteplayback" disablePictureInPicture>
+                                <source src="file/hy.mp4">
+                            </video>
+                        </div>
+                    </div>
+                    <div class="projectpre">
+                        <div class="projectprecard">
+                            <video height="100%" width="100%"   class="projectpreimg" controls muted controlsList="nodownload nofullscreen noremoteplayback" disablePictureInPicture>
+                                <source src="file/snydxhh.mp4">
+                            </video>
+                        </div>
+                    </div>
+                    <div class="projectpre imgUnactive">
+                        <div class="projectprecard">
+                            <img class="projectpreimg" id="flw2" src="file/flw2.jpg"/>
+                        </div>
+                    </div>
+                    <div class="projectpre imgUnactive">
+                        <div class="projectprecard">
+                            <img class="projectpreimg" id="flw3" src="file/flw3.jpg"/>
+                        </div>
+                    </div>
+                    <div class="projectpre imgUnactive">
+                        <div class="projectprecard">
+                            <img class="projectpreimg" id="bmw" src="file/bmw.jpg"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </article>
+    </main>
+    <footer>
+        <h5>GET IN TOUCH</h5>
+        <div class="contact">
+            <p class="email">butterflybrave[at]gmail[dot]com</p>
+            <p class="emailnotes">Always happy to chat and offer help, also open to any collaboration opportunities, so don't hesitate to reach out to me!</p>
+        </div>
+    </footer>
+    <script src="script.js" type="text/javascript"></script>
+</body>
+</html>
