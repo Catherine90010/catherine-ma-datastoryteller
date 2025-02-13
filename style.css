@@ -423,8 +423,10 @@ footer{
 .pdf{
     background-color: rgb(68, 64, 64);
 }
-#jpcnEmbed, #uselEmbed{
-    width: 660px;
+#jpcnEmbed, #uselEmbed, #uselmEmbed, #usyxEmbed, #olymEmbed, #euroEmbed{
+    max-width: 660px;
+    width: 100%;
+    min-width: 290px;
 }
 embed{
     width: 80vw;
