@@ -9,6 +9,9 @@ info,skill,,,,,,"I thrive at the intersection of creativity and technology. I'm 
 info,skill,,,,info/nanyangtech.png,,"building and interactive experiences with d3.js, GSAP, and three.js. I also embrace AIGC creativity, exploring new ways to co-create with technology. ",
 info,researchBk,,,,info/um.png,,"With a Ph.D. in Communication, my work is grounded in research and reflection—studying how visual narratives inform, persuade, and resonate. ",
 info,researchBk,,,,,,"I also care deeply about teaching, mentoring the next generation of data storytellers to think critically, design boldly, and experiment fearlessly.",
+stories,"infographics,science,culture",,"<div class=text><strong><a href=""https://www.youngpostclub.com/spark/news/china/article/3345018/infospark-how-china-plants-its-major-crops-seed-harvest"" target=""_blank"">SCMP Spark infographic (printed): How China plants its major crops from seed to harvest</a></strong></div>
+<div class=text>This comic-style infographic introduces when seeding begins, where these crops are found and how each plant grows and matures. By blending storytelling with visual explanations, it transforms cultural/agricultural ideas into approachable, entertaining content that encourages curiosity about the real world.</div>
+<img src='works/crop_cldr.jpeg' /> ",,img/cropcn.png,How China plants its major crops from seed to harvest,,"Designer, writer"
 stories,"3D,scrollytelling,multimedia,culture",https://multimedia.scmp.com/infographics/news/china/article/3339061/year_of_the_horse/,,,img/zdchrs.gif,All you need to know about the Year of the Horse,,"Developer, designer, , 3Dmodeler"
 stories,"scrollytelling,society,science",https://multimedia.scmp.com/infographics/news/hong-kong/article/3334304/taipo_wangfuk_fire/index.html,,,img/tpfire.gif,Tai Po inferno: Hong Kong’s deadliest fire in decades,,"Developer, designer"
 stories,"scrollytelling,society,culture",https://multimedia.scmp.com/infographics/news/hong-kong/article/3332411/hk_fencing_craze/index.html,,,img/agfc.gif,Gold rush: Hong Kong’s fencing frenzy,,"Developer, planner"
@@ -132,5 +135,4 @@ something,,,something/flw1.jpg,,,"Petals curve softly, a delicate meditation of 
 something,,,something/xbn.mp4,,,"Past time hums softly, a distant melody of laughter, loss, and learning, reminding me of impermanence and quiet grace.",,
 something,,,something/lake.jpg,,,"Sitting still, I watch thoughts float past, neither clinging nor resisting, surrendering to presence.",,
 something,,,something/snydxhh.mp4,,,"Sorrow arrives softly, a shadow that lingers, yet in its stillness, it quietly teaches depth, empathy, and resilience.",,
-
 something,,,something/night.png,,,"Some memories remain like distant stars, small, quiet, and luminous, guiding me gently through the night of reflection.",,
